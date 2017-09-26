@@ -51,9 +51,9 @@ The data transformation performed in the script run_analysis.R consists of the f
                 activity (second column in allData)
                 all columns with labels that contain "mean" or "std" (the variable names for mean and standard deviation)
 8. Calculate the mean for all <subjectId, activity, variable> combinations.
-        The result is a table, msData withh 180 rows: 30 subjects times 6 activities and 55 columns (subjectId, activity, 53 variables)
+        The result is a table, mData withh 180 rows: 30 subjects times 6 activities and 55 columns (subjectId, activity, 53 variables)
         Each of the 180 times 53 values represent the mean of the measurements for each <subjectID, actitivy, variable> combination in the original data set. The retained variable names are listed below.
-9. The msData table is saved to a file named "avgBySubjectActivity.txt"
+9. The mData table is saved to a file named "avgBySubjectActivity.txt"
 
 
 Variables in the file "avgBySubjectActivity.txt"
