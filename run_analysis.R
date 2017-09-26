@@ -19,6 +19,8 @@
 ##    X_test.txt (motion observations for test session activities)
 ##    y_test.txt (actual subject activity in test sessions)
 ##    subject_test.txt (subject (participant) list for test sessions)
+##    activity_labels.txt (activity labels)
+##    features.txt (variable names)
 ## 2. Merge training and test data sets
 ## 3. Filter observations to retain only mean and standard deviation variables
 ## 4. Label activities and variables in human-friendly terms
