@@ -28,3 +28,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The complete data set is available on GitHub:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## The project repository has the following files:
+
+README.md (this file)
+CodeBook.md describes the input data, the transformations, and the output
+run_analysis.R is the script that transforms the raw data to a table with average values
+avgBySubjectActivity.txt is the text file holding the results of the transformation in the run_analysis.R script
